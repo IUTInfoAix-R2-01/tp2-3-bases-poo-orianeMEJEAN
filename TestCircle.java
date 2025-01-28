@@ -12,5 +12,8 @@ public class TestCircle
 		Circle c3 = new Circle(3.0, "green");
 		System.out.println("The circle has a radius of " + c3.getRadius() + " and an area of " + c3.getArea());
 		System.out.println("The color of this circle is " + c3.getColor());
+		
+		System.out.println(c1.radius);
+		c1.radius = 5.0;  //doesn't work because it's private
 	}
 }
